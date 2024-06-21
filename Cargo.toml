@@ -1,0 +1,11 @@
+[package]
+name = "mvrps"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1.6"
+tokio-util = "0.6.6"
+tls-native-tls = "0.2.6"
+mvrp-protocol = { path = "../mvrp-protocol" } # Replace with actual path or version of the MVRP package
